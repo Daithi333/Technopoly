@@ -24,7 +24,6 @@ public class Timer implements Runnable {
 	 * Method to prompt player to hurry up!
 	 */
 	public void countDown() {
-
 		try {
 			Thread.sleep(1000L * DECISION_TIMER);
 			System.out.println("\nHurry up! How can you hope to Technopolise, with this level of indecisiveness!");
@@ -35,7 +34,5 @@ public class Timer implements Runnable {
 		} catch (InterruptedException e) {
 			
 		}
-		
 	}
-
 }
